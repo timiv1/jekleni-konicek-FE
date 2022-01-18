@@ -1,11 +1,5 @@
 <template>
   <v-row justify="center" align="center">
-    <v-col cols="12"> <v-card-title> Upravljaj delavce </v-card-title></v-col>
-    <v-btn outlined class="mr-4" @click="getDelavci">pridobi seznam</v-btn>
-    <v-btn outlined @click="getDelovniCasi">pridobi delovne čase</v-btn>
-
-    <span>{{ seznamDelavcev }}</span>
-    <span>{{ delovniCasi }}</span>
     <admin-panel/>
     <v-col cols="12">
     </v-col>

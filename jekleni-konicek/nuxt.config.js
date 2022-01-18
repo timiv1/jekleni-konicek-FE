@@ -25,6 +25,7 @@ export default {
     '~/plugins/registracijaVozilApi.js',
     '~/plugins/upravljanjeDelavcevApi.js',
     '~/plugins/delovniCasApi.js',
+    '~/plugins/delavciNarocanjeApi.js',
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -40,7 +41,11 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/axios', '@nuxtjs/auth-next'],
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/auth-next',
+    'nuxt-material-design-icons-iconfont',
+  ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
